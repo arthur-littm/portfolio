@@ -1,0 +1,24 @@
+.thumbnail {
+  width: 350px;
+  position: absolute;
+}
+
+.thumbnail.one {
+  top: 10px;
+  right: -20px;
+}
+
+.thumbnail.two {
+  bottom: 60px;
+  right: 300px;
+}
+
+.thumbnail.three {
+  bottom: 10px;
+  right: 20px;
+}
+
+.thumbnail.four {
+  top: 50px;
+  right: 320px;
+}

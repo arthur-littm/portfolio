@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arthur Littmann | Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-half">
+
+      <img src="images/logo.png" alt="logo" class="logo">
+
+      <div class="content">
+        <h1>Teacher</h1>
+        <h1>Designer</h1>
+        <h1>Developer</h1>
+        <p>I am a <strong>developer</strong> & <strong>designer</strong> working in London and <strong>teaching</strong> tech skills to creative people around the world. When I’m not looking for a missing div or counting pixels, I like to <strong>snowboard</strong> & <strong>scubadive</strong>.</p>
+      </div>
+
+      <a href="https://www.linkedin.com/in/arthur-littmann/" target="_blank" class="link one">/arthur-littmann <i class="fab fa-linkedin-in"></i></a>
+      <a href="https://dribbble.com/arthur-littm" target="_blank" class="link two">/arthur-littm <i class="fab fa-dribbble"></i></a>
+      <a href="https://github.com/arthur-littm" target="_blank" class="link three">/arthur-littm <i class="fab fa-github"></i></a>
+
+    </div>
+    <div class="right-half" id="scene" data-relative-input="true">
+      <img src="images/bridge.png" alt="" class="thumbnail one" data-depth="0.2">
+      <img src="images/flitter.png" alt="" class="thumbnail two" data-depth="0.3">
+      <img src="images/tick.png" alt="" class="thumbnail three" data-depth="0.6">
+      <img src="images/spotify.png" alt="" class="thumbnail four" data-depth="0.8">
+    </div>
+  </div>
+
+  <script src="javascript/parallax.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
+</body>
+</html>

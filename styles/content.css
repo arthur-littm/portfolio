@@ -1,0 +1,38 @@
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 50px;
+}
+
+.content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 40%;
+}
+
+.content h1 {
+  font-size: 80px;
+  line-height: 0;
+}
+
+
+
+.content h1:nth-child(1) {
+  color: #9AAAB7;
+}
+
+.content h1:nth-child(2) {
+  color: #71808D;
+}
+
+.content h1:nth-child(3) {
+  color: #313539;
+}
+
+.content p {
+  color: #71808D;
+  font-size: 18px;
+  margin-left: 10px;
+}
