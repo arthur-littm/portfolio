@@ -6,11 +6,13 @@
 .thumbnail.one {
   top: 10px;
   right: -20px;
+  width: 330px;
 }
 
 .thumbnail.two {
   bottom: 60px;
   right: 300px;
+  width: 300px;
 }
 
 .thumbnail.three {
@@ -19,6 +21,19 @@
 }
 
 .thumbnail.four {
-  top: 50px;
+  top: -30px;
   right: 320px;
+}
+
+.thumbnail.five {
+  top: 200px;
+  right: 50px;
+  width: 200px;
+}
+
+
+.thumbnail.six {
+  bottom: 300px;
+  right: 400px;
+  width: 250px;
 }
